@@ -21,7 +21,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Free Trial(09b389bc-bb8a-4375-ac6c-d56d9675bd0a)'
+    azureSubscription: 'beshoyhanna - Azure'
     appType: 'webApp'
     WebAppName: 'BeshoyHanna'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
